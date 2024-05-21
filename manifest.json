@@ -1,11 +1,11 @@
 {
-	"id": "sample-plugin",
-	"name": "Sample Plugin",
+	"id": "folder-notes-backlink",
+	"name": "Folder Notes Backlink",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
-	"description": "Demonstrates some of the capabilities of the Obsidian API.",
-	"author": "Obsidian",
+	"description": "Adds a backlink to the nearest folder note (if any) as a note property.",
+	"author": "Vonalbert",
 	"authorUrl": "https://obsidian.md",
-	"fundingUrl": "https://obsidian.md/pricing",
+	"fundingUrl": "",
 	"isDesktopOnly": false
 }
