@@ -1,3 +1,6 @@
+# Exclude the local release directory
+dist/
+
 # vscode
 .vscode 
 
