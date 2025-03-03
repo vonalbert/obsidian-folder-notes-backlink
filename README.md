@@ -16,9 +16,3 @@ Build the production version
 ```shell
 npm run build
 ```
-
-Prepare a local release in the dist/ directory
-
-```shell
-npm run release
-```

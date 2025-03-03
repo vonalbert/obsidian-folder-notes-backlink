@@ -21,7 +21,7 @@ jobs:
             - name: Build plugin
               run: |
                   npm install
-                  npm run release
+                  npm run build
 
             - name: Create release
               env:
@@ -31,4 +31,5 @@ jobs:
                   
                   gh release create "$tag" \
                     --title="$tag" \
-                    dist/*
+                    --draft \
+                    main.js manifest.json styles.css

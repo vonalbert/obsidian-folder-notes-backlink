@@ -1,13 +1,5 @@
 import {App, PluginSettingTab, Setting} from "obsidian";
-import FolderNotesBacklinkPlugin from "./main";
-
-export interface FolderNotesBacklinkPluginSettings {
-	propertyName: string;
-}
-
-export const DEFAULT_SETTINGS: FolderNotesBacklinkPluginSettings = {
-	propertyName: 'parent'
-}
+import FolderNotesBacklinkPlugin from "../main";
 
 export class SettingTab extends PluginSettingTab {
 	plugin: FolderNotesBacklinkPlugin;

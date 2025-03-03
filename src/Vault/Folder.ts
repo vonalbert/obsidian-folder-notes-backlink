@@ -1,4 +1,4 @@
-import {TFile, TFolder} from "obsidian";
+import {TAbstractFile, TFile, TFolder} from "obsidian";
 
 export default class Folder {
 	private initialized: boolean = false;
