@@ -1,7 +1,7 @@
 {
 	"id": "folder-notes-backlink",
 	"name": "Folder notes backlink",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"minAppVersion": "0.15.0",
 	"description": "Adds a backlink to the nearest folder note (if any) as a note property.",
 	"author": "Vonalbert",
